@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú despegable</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div>
+        <img class="logo_car" src="logo_car.png">
+    </div>
+    
+<nav class="nav sidenav">
+
+    <ul class="list">
+
+        <li class="list__items list__item--click">
+            <div class="list__button list__button--click">
+                <a href="#" class="nav__link">Ciclo Lectivo 2024</a>
+                <ion-icon name="chevron-forward-outline" class="list__arrow"></ion-icon>
+            </div>
+
+            <ul class="list__show">
+                <li class="list__items">
+                    <div class="list__button list__button--click-mañana">
+                        <a href="#" class="nav__link">Mañana</a>
+                        <ion-icon name="chevron-forward-outline" class="list__arrow"></ion-icon>
+                    </div>
+                    
+                        <ul class="list__show">
+                            <li class="list__items">
+                                <div class="list__button list__button--click-primero">
+                                    <a href="#" class="nav__link">1 AÑO</a>
+                                    <ion-icon name="chevron-forward-outline" class="list__arrow"></ion-icon>
+                                </div>
+                            </li>
+
+                            <li class="list__items">
+                                <div class="list__button list__button--click-segundo">
+                                    <a href="#" class="nav__link">2 AÑO</a>
+                                    <ion-icon name="chevron-forward-outline" class="list__arrow"></ion-icon>
+                                </div>
+                            </li>
+
+                            <li class="list__items">
+                                <div class="list__button list__button--click-tercero">
+                                    <a href="#" class="nav__link">3 AÑO</a>
+                                    <ion-icon name="chevron-forward-outline" class="list__arrow"></ion-icon>
+                                </div>
+                            </li>
+
+                            <li class="list__items">
+                                <div class="list__button list__button--click-cuarto">
+                                    <a href="#" class="nav__link">4 AÑO</a>
+                                    <ion-icon name="chevron-forward-outline" class="list__arrow"></ion-icon>
+                                </div>
+                            </li>
+
+                            <li class="list__items">
+                                <div class="list__button list__button--click-quinto">
+                                    <a href="#" class="nav__link">5 AÑO</a>
+                                    <ion-icon name="chevron-forward-outline" class="list__arrow"></ion-icon>
+                                </div>
+                            </li>
+
+                            <li class="list__items">
+                                <div class="list__button list__button--click-sexto">
+                                    <a href="#" class="nav__link">6 AÑO</a>
+                                    <ion-icon name="chevron-forward-outline" class="list__arrow"></ion-icon>
+                                </div>
+                            </li>
+                        </ul>
+                </li>
+    <!--turnotarde-->
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

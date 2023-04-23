@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: #EAEBEF;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.logo_car{
+    border: 2px solid rgb(2, 1, 2);
+    
+}
+
+.nav{
+    width: 300px;
+}
+
+.nav__link{
+    color: white;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+}
+/*Palabras adentro del formado dropbox*/
+.nav__link--inside{
+    border-radius: 10px ;
+    padding-left: 15px;
+    text-align: left;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+
+.nav__link--inside:hover{
+    background: red;
+}
+
+/*Menu General*/
+.list{
+    width: 101.2%;
+    height: 100vh;
+    display: flex;
+    margin-top: -7px;
+    flex-direction: column;
+    background: green;
+}
+
+.list__item{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+.list__items{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.list__item--click{
+    cursor: pointer;
+}
+/*Palabras principales del menu*/
+.list__button{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/*Animacion Flecha*/
+.arrow .list__arrow{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+/*Animacion Flecha*/
+.list__arrow{
+    margin-left: -10px;
+    color:#303440;
+    transition: transform .3s;
+}
+
+/*Barra negra del costado dropdowns*/
+.list__show{
+    width: 91%;
+    margin-left: auto;
+    border-left: 2px solid #303440;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+}
